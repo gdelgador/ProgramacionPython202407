@@ -12,8 +12,5 @@
   "postCreateCommand": "pip install -r requirements.txt",
   "mounts": [
     "source=pgdata,target=/var/lib/postgresql/data,type=volume"
-  ],
-  "runArgs": [
-    "--init"
   ]
 }
